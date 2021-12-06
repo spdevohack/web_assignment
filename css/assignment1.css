@@ -1,8 +1,12 @@
-
+@font-face{
+	font-family: baloo-bhaijaan;
+	src: url("/home/sachin/web_assignment/fonts/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf");
+}
 
 h1{
-	text-align: center;
+	text-align: center;/BalooBhaijaan2-VariableFont_wght.ttf
 	background-color: darkred;
+	font-family: baloo-bhaijaan;
 
 }
 
