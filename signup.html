@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign UP</title>
+    <link rel="stylesheet" type="text/css" href="css/assignment2.css">
+</head>
+
+<body>
+    <div>
+        <h1>Sign Up Form</h1>
+    </div>
+    <div class="form">
+        <fieldset>
+            <legend>Regestration Form</legend>
+            <br>
+            <form class="dh/sign">
+                <div>
+                    <p>Please fill this form for Sign up</p>
+                </div>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter First name" required autofocus>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter Last name">
+                <br>
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" name="dob" id="dob" placeholder="dd/mm/yy">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required>
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number" pattern="[0-9]{4}-[0-9]{2}-[0-9]{4}" required>
+                <br>
+                <label for="address1">Address Line 1:</label>
+                <input type="text" name="address1" id="address1" placeholder="H.No/ street" required>
+                <br>
+                <label for="address2">Address Line 2:</label>
+                <input type="text" name="address1" id="address2" placeholder="Area/colony">
+                <br>
+                <br>
+                <div class="select">
+                    <label for="state">Select State:</label>
+                    <select id="state" name="state">
+                        <option value="haryana">Haryana</option>
+                        <option value="up">Uttar Pradesh</option>
+                        <option value="Del">Delhi</option>
+                        <option value="rajasthan">Rajasthan</option>
+                        <option value="Mhr">Maharastra</option>
+                        <option value="Mp">Madhya pradesh</option>
+                        <option value="j&k">Jammu-Kashmir</option>
+                        <option value="Him">Himachal-pradesh</option>
+                        <option value="Bih">Bihar</option>
+                        <option value="sik">Sikkim</option>
+                        <option value="Meg">Meghalya</option>
+                        <option value="Ass">Assam</option>
+                        <option value="Tri">Tripura</option>
+                        <option value="Wb">Wesh-Bengal</option>
+                        <option value="Tam">Tamil-Nadu</option>
+                        <option value="kar">Karnataka</option>
+                        <option value="goa">Goa</option>
+                        <option value="ker">Kerla</option>
+                        <option value="Arn">Arunachanl Pradesh</option>
+                        <option value="Tel">Telangana</option>
+                        <option value="Andh">Andhra pradesh</option>
+                    </select>
+                </div>
+                <br>
+                <div class="img">
+                    <label for="file">Upload image for Sign up : </label>
+                    <input type="file" name="fiel" id="file" value="file" accept=".png, .jpeg">
+                </div>
+                <br>
+                <div class="submit">
+                    <input type="submit" name="Sign Up" value="Sign Up" class="btn">
+                    <input type="submit" name="forget" value="Sign in" class="btn">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
