@@ -1,0 +1,27 @@
+
+
+h1{
+	text-align: center;
+	background-color: darkred;
+
+}
+
+div{
+	margin-top: 40px;
+}
+
+img {
+	display: block;
+	background-color: #00e3a4;
+	margin: auto;
+	width: 50%;
+	height: 700px;
+
+}
+figcaption{
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+
+
+}
