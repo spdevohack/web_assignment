@@ -109,9 +109,10 @@ label {
 }
 
 .name {
-	/*display:flex;
+	d/*isplay:flex;
 	justify-content: center;
-	*/
+	align-items: ce*/nter;
+	
 	margin-bottom: -2%;
 	
 }
